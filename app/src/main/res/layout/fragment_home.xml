@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:src="@mipmap/ic_launcher_foreground"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+    <ImageView
+        android:src="@drawable/ic_restaurant_presentation"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+    <TextView
+        android:text="@string/header_restaurant"
+        android:textAlignment="center"
+        android:textSize="@dimen/size_header"
+        android:layout_marginTop="@dimen/dim_top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:padding="@dimen/dim_all"
+        android:text="@string/presentation_restaurant"
+        android:layout_marginTop="@dimen/dim_top"
+        android:justificationMode="inter_word"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <ImageView
+        android:src="@drawable/ic_service"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+
+    <TextView
+        android:text="@string/header_service"
+        android:layout_marginTop="@dimen/dim_top"
+        android:textAlignment="center"
+        android:textSize="@dimen/size_header"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textStyle="bold"
+        tools:ignore="SpUsage" />
+
+    <TextView
+        android:padding="@dimen/dim_all"
+        android:text="@string/presentation_service"
+        android:layout_marginTop="@dimen/dim_top"
+        android:justificationMode="inter_word"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <ImageView
+        android:src="@drawable/ic_authentique"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+    <TextView
+        android:text="@string/header_authenticity"
+        android:layout_marginTop="@dimen/dim_top"
+        android:textAlignment="center"
+        android:textSize="@dimen/size_header"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textStyle="bold"
+        tools:ignore="SpUsage" />
+    <TextView
+        android:padding="@dimen/dim_all"
+        android:text="@string/presentation_authentique"
+        android:layout_marginTop="@dimen/dim_top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <ImageView
+        android:src="@drawable/ic_partage"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        />
+    <TextView
+        android:text="@string/header_sharing"
+        android:layout_marginTop="@dimen/dim_top"
+        android:textAlignment="center"
+        android:textSize="@dimen/size_header"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textStyle="bold"
+        tools:ignore="SpUsage" />
+
+    <TextView
+        android:padding="@dimen/dim_all"
+        android:text="@string/presentation_partage"
+        android:layout_marginTop="@dimen/dim_top"
+        android:justificationMode="inter_word"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>
+</ScrollView>

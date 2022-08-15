@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.univ.myfastfood.ui.home.HomeFragment"
+        android:label="@string/presentation"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_maps"
+        android:name="com.univ.myfastfood.RestaurantActivity"
+        android:label="@string/restaurant"
+        tools:layout="@layout/fragment_restaurant" />
+
+    <fragment
+        android:id="@+id/nav_list"
+        android:name="com.univ.myfastfood.MenuFragment"
+        android:label="@string/list"
+        tools:layout="@layout/fragment_menu" />
+    <fragment
+        android:id="@+id/nav_help"
+        android:name="com.univ.myfastfood.HelpFragment"
+        android:label="@string/help"
+        tools:layout="@layout/fragment_help" />
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.univ.myfastfood.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.univ.myfastfood.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+</navigation>

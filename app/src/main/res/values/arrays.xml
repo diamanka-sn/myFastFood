@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tab_menu">
+        <item>Lait chaud</item>
+        <item>Lait froid</item>
+        <item>Hamburgers</item>
+    </string-array>
+    <string-array name="tab_details">
+        <item>1 500 F cfa</item>
+        <item>1 500 F cfa</item>
+        <item>3 000 F cfa</item>
+    </string-array>
+</resources>
